@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "==1.8.1"
+torchvision = "==0.9.1"
+tqdm = "*"
+matplotlib = "*"
+notebook = "*"
+jupyter-http-over-ws = "*"
+ipywidgets = "*"
+jedi = "==0.17.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+notebook = "jupyter notebook --config=notebook_config.py"

@@ -12,6 +12,7 @@ notebook = "*"
 jupyter-http-over-ws = "*"
 ipywidgets = "*"
 jedi = "==0.17.2"
+sklearn = "*"
 
 [dev-packages]
 
